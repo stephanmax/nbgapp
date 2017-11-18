@@ -57,3 +57,5 @@ typings/
 # dotenv environment variables file
 .env
 
+service-account.json
+config.js
