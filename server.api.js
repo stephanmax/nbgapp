@@ -103,7 +103,7 @@ module.exports = (PORT) => {
       method: 'GET',
       path: '/.well-known/acme-challenge/{file*}',
       handler: {
-        directory: { 
+        directory: {
           path: './.well-known/acme-challenge'
         }
       }

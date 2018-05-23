@@ -11,7 +11,7 @@ const PATHS = {
 
 module.exports = {
   entry: [
-    path.join(PATHS.SRC, 'index.js'),
+    path.join(PATHS.SRC, 'client.js'),
     'webpack/hot/dev-server'
   ],
   output: {
